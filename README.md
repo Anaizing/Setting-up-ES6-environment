@@ -172,7 +172,7 @@ our js files, so we need to exclude the node_modules folder, exclude:/node_modul
  it should then look something like this...
  
  
-   ![ScreenShot](onepackagejson.png)
+   ![ScreenShot](packagejson.png)
  
  
  # 13.test it on cmd, run
