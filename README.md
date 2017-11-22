@@ -4,7 +4,7 @@ I had a bit of trouble with npm issues, due to babel not running on the latest v
 and save you a headache or two, specially if you're doing this on your own for the first time, like i did. 
 (SELF FIVE!!)
 
-   ![ScreenShot](avoidthis.png)
+   ![ScreenShot](avoidthis.jpg)
 
 # 1-First install node js
 make sure not to use the latest version, instead use the second latest so you dont run into problems installing Babel.
