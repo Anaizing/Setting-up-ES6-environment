@@ -1,6 +1,10 @@
 # Setting-up-ES6-environment
-How to set up your es6 environment using babel and webpack. Im running windows 10 and I'm using the Atom script editor
+How to set up your es6 environment using babel and webpack. Im running windows 10 and I'm using the Atom script editor.
+I had a bit of trouble with npm issues, due to babel not running on the latest version. Hopefully this will come in handy
+and save you a headache or two, specially if you're doing this on your own for the first time, like i did. 
+(SELF FIVE!!)
 
+   ![ScreenShot](avoidthis.png)
 
 # 1-First install node js
 make sure not to use the latest version, instead use the second latest so you dont run into problems installing Babel.
