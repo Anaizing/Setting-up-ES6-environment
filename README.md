@@ -6,7 +6,7 @@ and save you a headache or two, specially if you're doing this on your own for t
 
    ![ScreenShot](avoidthis.jpg)
 
-# 1-First install node js
+## 1-First install node js
 make sure not to use the latest version, instead use the second latest so you dont run into problems installing Babel.
 Test node js on your cmd by running 
     
@@ -24,7 +24,7 @@ which should print out the version you are running
             
             //5.4.2
     
- # 2-Set up webpack
+ ## 2-Set up webpack
  on your cmd make a new folder by running
             
             $ mkdir es6
@@ -60,11 +60,11 @@ as that installs, it will create a node modules folder for our node project and 
 update our package.json with a dev dependency property which will specify that we need webpack
 on this project.
 
-# 3. Open project on your code editor
+## 3. Open project on your code editor
 Here you will see the es6 folder you created, inside it will have a folder with node_modules
 and a package.json file
 
-# 4. Create a new folder inside es6 called build, whithin build create your first file, index.html. 
+## 4. Create a new folder inside es6 called build, whithin build create your first file, index.html. 
 Set up a html document. In the body create a script tag with the source bundle.js
 
             <!DOCTYPE html>
@@ -80,13 +80,13 @@ Set up a html document. In the body create a script tag with the source bundle.j
                 </body>
               </html>
 
-# 5. create an app folder within the es6 folder
+## 5. create an app folder within the es6 folder
 inside that, create an index.js file. In the index.js 
 file write a console.log string to test
 
                 console.log('Hi mum! ...dont worry im never moving out');
     
-# 6. Create a config file
+## 6. Create a config file
 To get webpack working we need to create a webpack.config.js file and inside
 it place this code.
 
@@ -99,7 +99,7 @@ it place this code.
                 }
     
     
-# 7. Update scripts- 
+## 7. Update scripts- 
 go back into package.js file, inside "scripts", delete this line
 
                 "test": "echo \"Error: no test specified\" && exit 1"
@@ -108,17 +108,17 @@ go back into package.js file, inside "scripts", delete this line
       
                 "build": "webpack"
       
-# 8. Test if webpack works from your cmd
+## 8. Test if webpack works from your cmd
                 
                 $ npm run build
     
    this will create a bundle.js file in build (dont worry about this file)
     
-# 9. Test if its all linked up
+## 9. Test if its all linked up
 open project in browser and inspect the element Ctrl+shift+i to see if your console.log 
 comment has printed on the console.
 
-# 10. Add Babel to project. 
+## 10. Add Babel to project. 
 On the cmd prompt run
 
     $ npm babel-core babel-loader webpack-dev-server babel-preset-env babel-polyfill --save-dev
@@ -134,7 +134,7 @@ On the cmd prompt run
               babel-polyfill. Enables es6 and babel code to run natively on browsers even though not all browsers support es6
               webpack-dev-server. Allows us to have AUTOMATIC LIVE CODE UPDATES
         
-# 11 Update our webpack.config.js file 
+## 11 Update our webpack.config.js file 
 to include new features. Next to the module.exports create a new object called module, inside it place a loaders array
 and within loaders specify our objects, loader:'babel-loader', test:/\.js$/ ---this captures all
 our js files, so we need to exclude the node_modules folder, exclude:/node_modules/ like so...
@@ -162,7 +162,7 @@ our js files, so we need to exclude the node_modules folder, exclude:/node_modul
  
    ![ScreenShot](webpackconfigjs.png)
  
- # 12. UPDATE package.json. again
+ ## 12. UPDATE package.json. again
  Next to the fist object add a babel property, and within it add a presets 
  property with an array of "env" in it
  
@@ -180,15 +180,15 @@ our js files, so we need to exclude the node_modules folder, exclude:/node_modul
    ![ScreenShot](packagejson.png)
  
  
- # 13.test it on cmd, run
+ ## 13.test it on cmd, run
  
                     $ npm start
         
- # 14.Test that shit 
+ ## 14.Test that shit 
  Go back to browser, and change it to localhost:3000 to see if it updates and TADAAAAAAA! 
  you're ready to get some shit done!
  
- # 15. Call mum and tell her the good news!
+ ## 15. Call mum and tell her the good news!
  
  
  
