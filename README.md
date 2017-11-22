@@ -127,11 +127,12 @@ On the cmd prompt run
     https://github.com/npm/npm/issues/18380
     
    what each of these does
-        babel-core. Main module which holds much of the logic for transforming es6 to javascript code
-        babel-loader. the module that accomplishes the transformation
-        babel-preset-env. allows us to specify as a preset
-        babel-polyfill. Enables es6 and babel code to run natively on browsers even though not all browsers support es6
-        webpack-dev-server. Allows us to have AUTOMATIC LIVE CODE UPDATES
+   
+              babel-core. Main module which holds much of the logic for transforming es6 to javascript code
+              babel-loader. the module that accomplishes the transformation
+              babel-preset-env. allows us to specify as a preset
+              babel-polyfill. Enables es6 and babel code to run natively on browsers even though not all browsers support es6
+              webpack-dev-server. Allows us to have AUTOMATIC LIVE CODE UPDATES
         
 # 11 Update our webpack.config.js file 
 to include new features. Next to the module.exports create a new object called module, inside it place a loaders array
