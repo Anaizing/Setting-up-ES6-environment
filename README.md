@@ -173,6 +173,8 @@ our js files, so we need to exclude the node_modules folder, exclude:/node_modul
  Go back to browser, and change it to localhost:3000 to see if it updates and TADAAAAAAA! 
  you're ready to get some shit done!
  
+ # 15. Call mum and tell her the good news!
+ 
  
  
  
