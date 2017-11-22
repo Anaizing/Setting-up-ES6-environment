@@ -153,6 +153,10 @@ our js files, so we need to exclude the node_modules folder, exclude:/node_modul
               }
 
       
+ Now it should be looking like this...
+ 
+   ![ScreenShot](webpackconfigjs.png)
+ 
  # 12. UPDATE package.json. again
  Next to the fist object add a babel property, and within it add a presets 
  property with an array of "env" in it
@@ -164,6 +168,10 @@ our js files, so we need to exclude the node_modules folder, exclude:/node_modul
  then add one more script, inside "scripts" called 
  
                     "start": "webpack-dev-server"
+ 
+ it should then look something like this...
+ 
+ ![ScreenShot](onepackagejson.png)
  
  # 13.test it on cmd, run
  
