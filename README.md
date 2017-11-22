@@ -64,7 +64,8 @@ on this project.
 Here you will see the es6 folder you created, inside it will have a folder with node_modules
 and a package.json file
 
-## 4. Create a new folder inside es6 called build, whithin build create your first file, index.html. 
+## 4. Create a build folder
+In your es6 folder create a folder called build, whithin build create your first file, index.html. 
 Set up a html document. In the body create a script tag with the source bundle.js
 
             <!DOCTYPE html>
